@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>好时巧克力详情页</title>
+<!-- TemplateEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+</style>
+<script src="../jquery-1.11.1.min.js"></script>
+<script src="../Hershey.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="top_wrap">
+	<div class="top">
+        <div class="top_l"></div>
+        <p>
+        	<a href="javascript:;">好时公司</a><a href="#">订阅电子报</a><a href="javascript:;">网站地图</a><a href="javascript:;">联系我们</a>
+        </p>
+	</div>
+</div>
+<div class="title_wrap">
+ 	<div class="title">
+       	<span class="title_l"><img src="../img/txt.gif" /></span>
+        <span class="title_c"><a href="javascript:;"><img src="../img/logo.gif" /></a></span>
+        <div class="title_r">
+        	<input type="text" value="请输入关键词" class="search" />
+            <p class="sousuo"><a href="javascript:;">搜索</a></p>
+            <span></span>
+            <p class="weibo"><a href="javascript:;"><img src="../img/weibo.gif" /></a></p>
+            <p class="weixin"><a href="javascript:;"><img src="../img/weixin.gif" /></a></p>
+    </div>
+</div>
+<div class="nav_wrap">
+	<ul>
+    	<li><a href="../index.html" class="bg">首页</a></li>
+        <li><a href="../list.html">关于好时</a></li>
+        <li><a href="javascript:;">好时品牌</a></li>
+        <li><a href="javascript:;">礼享好时</a></li>
+        <li><a href="javascript:;">好时食谱</a></li>
+        <li><a href="javascript:;">电视广告</a></li>
+        <li class="nomargin"><a href="javascript:;">立即购买</a></li>
+    </ul>
+</div>
+<div class="list_banner"></div>
+<div class="banner_bg"></div>
+<!-- TemplateBeginEditable name="EditRegion3" -->
+<div class="detail_con">
+	
+</div>
+<!-- TemplateEndEditable -->
+<div class="foot_wrap">
+    <div class="foot">
+        <dl>
+            <dt><a href="javascript:;">关于好时</a></dt>
+            <dd><a href="javascript:;">品牌历史</a></dd>
+            <dd><a href="javascript:;">好时公司</a></dd>
+            <dd><a href="javascript:;">关注好时</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="javascript:;">美味好时巧克力</a></dt>
+            <dd><a href="javascript:;">好时之吻巧克力</a></dd>
+            <dd><a href="javascript:;">好时臻吻巧克力</a></dd>
+            <dd><a href="javascript:;">好时巧克力</a></dd>
+            <dd><a href="javascript:;">锐滋巧克力</a></dd>
+            <dd><a href="javascript:;">贝客诗巧克力</a></dd>
+            <dd><a href="javascript:;">沁动无糖系列</a></dd>
+            <dd><a href="javascript:;">悠慢奶焙糖</a></dd>
+            <dd><a href="javascript:;">暴风果水果糖</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="javascript:;">礼享好时</a></dt>
+            <dd><a href="javascript:;">好时婚庆特选</a></dd>
+            <dd><a href="javascript:;">好时佳节馈赠</a></dd>
+            <dd><a href="javascript:;">好时家庭畅享</a></dd>
+            <dd><a href="javascript:;">好时美味独享</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="javascript:;">立即购买</a></dt>
+            <dd class="buy"><a href="javascript:;">好时巧克力世界上海旗舰店</a></dd>
+            <dd class="buy"><a href="javascript:;">好时巧克力天猫旗舰店</a></dd>
+        </dl>
+        <dl class="noline">
+            <dt><a href="javascript:;">好时巧克力广告</a></dt>
+            <dd><a href="javascript:;">电视广告</a></dd>
+            <dd><a href="javascript:;">好时厨房</a></dd>
+        </dl>
+    </div>
+    <div class="foot_bot">
+    	<div class="foot_bot_l">
+        	<select>
+            	<option class="list">浏览其他国家的好时网站</option>
+            </select>
+            <span class="help"><a href="javascript:;">法律帮助</a><span class="line">|</span><a href="javascript:;">联系我们</a><span class="line">|</span><a href="javascript:;">网站地图</a></span>
+        </div>
+        <span class="foot_bot_r">Copyright &copy; 2014好时巧克力公司版权所有</span>
+    </div>
+</div>
+</body>
+</html>
