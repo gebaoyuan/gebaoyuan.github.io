@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Android
+category: 名字
 title: 强化你的Terminal IDE——在android平板/手机上编写C/C++
 tagline: by Snail
 tags: 
