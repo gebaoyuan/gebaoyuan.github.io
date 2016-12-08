@@ -1599,7 +1599,10 @@ footer.article-footer {
     -moz-osx-font-smoothing: grayscale;
     content: "\f075"
 }
-
+.comments-count span:before:hover{
+	transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.2,1.2);
+}
 @media only screen and (max-width:568px) {
     .comments-count {
         float: left
@@ -1613,7 +1616,6 @@ footer.article-footer {
 
 .comments-count-link:hover {
     color: #fff !important;
-    background: #2ca6cb
 }
 
 .article-tags,
