@@ -14,12 +14,10 @@
 {% endif %}
 {% if index %}
 <div class="comments-count">
-	{% if (site.disqus_shortname or site.disqus_shortname) and !site.duoshuo_shortname %}
-	  	<span></span>
-		<a href="{{ site.baseurl }}{{ item.url }}#disqus_thread" class="comments-count-link">Comments</a>
+	{% if (site.disqus_shortname or site.disqus_shortname) and !site.duoshuo_shortname %} 	
+		<a href="{{ site.baseurl }}{{ item.url }}#disqus_thread" class="comments-count-link"><span></span>Comments</a>
 	{% elsif site.duoshuo_shortname %}
-	  	<span></span>
-		<a href="{{ site.baseurl }}{{ item.url }}#comments" class="ds-thread-count comments-count-link" data-thread-key="{{ item.id }}" data-count-type="comments">&nbsp;</a>
+		<a href="{{ site.baseurl }}{{ item.url }}#comments" class="ds-thread-count comments-count-link" data-thread-key="{{ item.id }}" data-count-type="comments"><span></span></a>
 	{% endif %}
 </div>
 {% endif %}
