@@ -11,34 +11,34 @@ article .article-content img.emoji {
     padding: 0px;
     margin: 0em 0.2em 0.25em 0.2em;
 }
-.tagslist ul li:nth-child(1){
+.tagslist ul li:nth-child(1)>a{
 	color: #f74257;
 }
-.tagslist ul li:nth-child(2){
+.tagslist ul li:nth-child(2)>a{
 	color: #17a6e8;
 }
-.tagslist ul li:nth-child(3){
+.tagslist ul li:nth-child(3)>a{
 	color: #ed9248;
 }
-.tagslist ul li:nth-child(4){
+.tagslist ul li:nth-child(4)>a{
 	color: #48ed64;
 }
-.tagslist ul li:nth-child(5){
+.tagslist ul li:nth-child(5)>a{
 	color: #5248ed;
 }
-.categorieslist ul li:nth-child(1){
+.categorieslist ul li:nth-child(1)>a{
 	color: #f74257;
 }
-.categorieslist ul li:nth-child(2){
+.categorieslist ul li:nth-child(2)>a{
 	color: #17a6e8;
 }
-.categorieslist ul li:nth-child(3){
+.categorieslist ul li:nth-child(3)>a{
 	color: #ed9248;
 }
-.categorieslist ul li:nth-child(4){
+.categorieslist ul li:nth-child(4)>a{
 	color: #48ed64;
 }
-.categorieslist ul li:nth-child(5){
+.categorieslist ul li:nth-child(5)>a{
 	color: #5248ed;
 }
 
