@@ -1599,7 +1599,7 @@ footer.article-footer {
     -moz-osx-font-smoothing: grayscale;
     content: "\f075"
 }
-.comments-count span:before:hover{
+.comments-count span:hover{
 	transform:scale(1.2,1.2);
 	-webkit-transform:scale(1.2,1.2);
 }
