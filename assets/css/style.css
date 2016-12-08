@@ -772,8 +772,8 @@ header nav ul li a:hover {
     padding: 6px 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    background: #ddd;
-    color: #817c7c;
+    background: #CDDC39;
+    color: #03A9F4;
     text-decoration: none;
 }
 
@@ -1600,8 +1600,8 @@ footer.article-footer {
 
 .comments-count span:before {
     font-family: "FontAwesome";
-    transition: 1s all;
-    -webkit-transition: 1s all;
+    transition: .2s all;
+    -webkit-transition: .2s all;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "\f075"
@@ -1655,8 +1655,11 @@ footer.article-footer {
     width: 1em;
     height: 2em;
     margin-right: .5em;
+    color: rebeccapurple;
 }
-
+.article-categories span{
+	color: #ff6a00;
+}
 .article-tags span:before {
     font-family: "FontAwesome";
     -webkit-font-smoothing: antialiased;
