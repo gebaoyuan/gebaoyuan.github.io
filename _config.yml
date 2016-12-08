@@ -36,7 +36,7 @@ excerpt_separator: <!--more-->
 paginate: 10
 
 #### Site
-title : Yitao's Blog
+title : geSnowBoy Blog
 tagline: A technology blog for myself.
 assets: /assets
 baseurl:
@@ -56,14 +56,14 @@ menu:
 ## title: tags (or categories)
 ## ---
 
-#### Widgets
+#### Widgets 侧边栏设置
 widgets: 
 - category
 - tag
 - links
 - weibo
-- douban
-- rss
+####- douban
+####- rss
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
@@ -89,15 +89,15 @@ mathjax: false     #enable mathjax if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
-  intro_line1:  "Hello, I'm Yitao in SYSU."    ## your introduction on the bottom of the page
-  intro_line2:  "Too simple, sometimes naive."  ## the 2nd line
+  name: 葛宝远      ## 你的名字
+  intro_line1:  "Hello, I'm geSnowBoy in BeiJing."    ## e.g. 微博底部的描述第一行
+  intro_line2:  "learn more,and know less."  ## 微博底部的描述第二行
   weibo: 1836017133      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: 8266a57e  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina: 1836017133      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban: 62234732     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu: yaoyit      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email: simpleyyt@gmail.com      ## e.g. imjark@gmail.com
+  email: yuanSnowBoy@163.com      ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
   github: simpleyyt     ## e.g. wuchong for https://github.com/wuchong
   facebook:   ## e.g. imjark for https://facebook.com/imjark
