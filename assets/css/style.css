@@ -1592,17 +1592,25 @@ footer.article-footer {
     float: right;
 }
 
+.comments-count span {
+    color: #18b031;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+}
+
 .comments-count span:before {
     font-family: "FontAwesome";
-    color: #18b031;
+    transition: 1s all;
+    -webkit-transition: 1s all;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "\f075"
 }
-.comments-count span:hover{
-	transform:scale(1.2,1.2);
-	-webkit-transform:scale(1.2,1.2);
+
+.comments-count span:hover {
+    color: red;
 }
+
 @media only screen and (max-width:568px) {
     .comments-count {
         float: left
