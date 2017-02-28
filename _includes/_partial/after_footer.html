@@ -92,7 +92,18 @@ $(document).ready(function(){
       {% endif %}
     }
   });
-});
+  if(location.host != "gebaoyuan.github.io"){
+    goPage();
+   
+  }
+  $('.go-page').click(goPage);
+ function goPage(){
+    $('body').animate({
+      scrollTop: $(window).height()
+    }, 400);
+ }
+  })
+
 </script>
 
 {% if page.layout == 'post' %}
