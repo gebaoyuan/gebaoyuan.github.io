@@ -32,7 +32,7 @@ $(document).ready(function(){
     m.removeClass('moveMain');
   });
   $(window).scroll(function(){
-    o.css("top",Math.max(80,260-$(this).scrollTop()));
+    o.css("top",Math.max(80,$(window).height() + 80 - $(this).scrollTop()));
   });
   
   {% if page.layout == 'post' and site.close_aside %}
