@@ -16,7 +16,7 @@
         var draw = function() {
             q.getContext('2d').fillStyle = 'rgba(0,0,0,.05)';
             q.getContext('2d').fillRect(0, 0, width, height);
-            q.getContext('2d').fillStyle = '#0F0';
+            q.getContext('2d').fillStyle = 'rgb('+Math.random() * 255+','+Math.random() * 255+','+Math.random() * 255+')';
             var text = '';
             letters.map(function(y_pos, index) {
                 text = String.fromCharCode(3e4 + Math.random() * 33);
