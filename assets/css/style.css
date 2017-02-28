@@ -2890,6 +2890,8 @@ article .article-content img.emoji {
 body>header {
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     background: url(http://ohou1oxb6.bkt.clouddn.com/github/glog/bg_04.jpg);
     background-size: 100% 100%;
 }
@@ -2933,4 +2935,33 @@ header {
     z-index: 10000;
     animation: arrow_move .5s infinite alternate;
     -webkit-animation: arrow_move .5s infinite alternate;
+}
+@-webkit-keyframes arrow_move {
+    to {
+        bottom: 60px;
+    }
+}
+
+@-moz-keyframes arrow_move {
+    to {
+        bottom: 60px;
+    }
+}
+
+@-ms-keyframes arrow_move {
+    to {
+        bottom: 60px;
+    }
+}
+
+@-o-keyframes arrow_move {
+    to {
+        bottom: 60px;
+    }
+}
+
+@keyframes arrow_move {
+    to {
+        bottom: 60px;
+    }
 }
