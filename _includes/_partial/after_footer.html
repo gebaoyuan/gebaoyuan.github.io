@@ -10,9 +10,8 @@
           var q = document.getElementById('q');
           if(!q) return;
         }
-        var s = window.screen;
-        var width = q.width = s.width;
-        var height = q.height = s.height;
+        var width = q.width = document.body.clientWidth;
+        var height = q.height = document.body.clientHeight;
         var letters = Array(256).join(1).split('');
         var draw = function() {
             q.getContext('2d').fillStyle = 'rgba(0,0,0,.05)';
