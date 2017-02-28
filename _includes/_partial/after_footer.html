@@ -58,16 +58,14 @@ $(document).ready(function() {
         o.css("top", Math.max(80, $(window).height() + 80 - $(this).scrollTop()));
     });
 
-    { %
-        if page.layout == 'post'
-        and site.close_aside %
-    }
+    {% if page.layout == 'post'
+        and site.close_aside 
+      %}
     getSize();
     if (myWidth >= 1024) {
         c.click();
         $('#toc.toc-aside').show();
-    } { % endif %
-    }
+    } {% endif %}
 
     $(window).resize(function() {
         getSize();
