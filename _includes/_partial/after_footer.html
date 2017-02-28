@@ -5,38 +5,6 @@
 <script src="{{ site.assets }}/js/toc.js"></script>
 
 <script type="text/javascript">
-!(function() {
-        if(!q){
-          var q = document.getElementById('q');
-          if(!q) return;
-        }
-        var width = q.width = document.body.clientWidth;
-        var height = q.height = document.body.clientHeight;
-        var letters = function(){
-            var arr = [];
-            for(var i = 0 ; i < width / 10 >> 0; i++){
-                arr.push(Math.random() * height);
-            }
-            return arr;
-        }();
-        var char16 =  ['1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
-        var draw = function() {
-            q.getContext('2d').fillStyle = 'rgba(0,0,0,.05)';
-            q.getContext('2d').fillRect(0, 0, width, height);
-            q.getContext('2d').fillStyle = '#0F0';
-            letters.map(function(y_pos, index) {
-                q.getContext('2d').fillStyle = '#'+ char16[getRandowNum(16)]+char16[getRandowNum(16)]+char16[getRandowNum(16)];
-                var text = String.fromCharCode(3e4 + Math.random() * 33);
-                x_pos = index * 10;
-                q.getContext('2d').fillText(text, x_pos, y_pos);
-                letters[index] = (y_pos > 758 + Math.random() * 1e4) ? 0 : y_pos + 10;
-            });
-        };
-        function getRandowNum(num){
-          return Math.random() * num >> 0;
-        }
-        setInterval(draw, 33);
-    }());
 $(document).ready(function(){ 
   $('.navbar').click(function(){
     $('header nav').toggleClass('shownav');

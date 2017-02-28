@@ -547,7 +547,7 @@ html,body,header{
 
 @media only screen and (min-width:568px) {
     .navbar {
-        display: none
+        display: none;
     }
 }
 
@@ -2885,6 +2885,8 @@ article .article-content img.emoji {
 header{
     position: relative;
     z-index: 1;
+    background: url(http://ohou1oxb6.bkt.clouddn.com/github/glog/bg_04.jpg);
+    background-size: 100% 100%;
 }
 .drowdown{
     position: absolute;
