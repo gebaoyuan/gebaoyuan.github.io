@@ -456,13 +456,17 @@ body >header a {
     display: block;
     color: #fff
 }
-
+html,body,header{
+    height: 100%;
+}
 #imglogo {
     float: left;
     width: 4em;
     height: 4em;
 }
-
+#imglogo img{
+    border-radius: 50%;
+}
 @media only screen and (min-width:768px) {
     #imglogo {
         width: 5em
