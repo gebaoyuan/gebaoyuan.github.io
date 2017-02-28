@@ -2882,11 +2882,14 @@ article .article-content img.emoji {
 
 
 
-header{
+body>header{
     position: relative;
     z-index: 1;
     background: url(http://ohou1oxb6.bkt.clouddn.com/github/glog/bg_04.jpg);
     background-size: 100% 100%;
+}
+header{
+    background: url(http://ohou1oxb6.bkt.clouddn.com/github/glog/bg_02.jpg);
 }
 .drowdown{
     position: absolute;
