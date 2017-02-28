@@ -2933,6 +2933,7 @@ header {
     font-size: 40px;
     color: #fff;
     z-index: 10000;
+    cursor: pointer;
     animation: arrow_move .5s infinite alternate;
     -webkit-animation: arrow_move .5s infinite alternate;
 }
