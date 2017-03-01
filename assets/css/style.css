@@ -2929,6 +2929,7 @@ header {
     position: absolute;
     bottom: 50px;
     left: 50%;
+    width:40px;
     margin-left: -20px;
     font-size: 40px;
     color: #fff;
