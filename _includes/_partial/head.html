@@ -2,7 +2,18 @@
 <html {% if site.language %}lang="{{ site.language }}"{% endif %}>
 <head>
   <meta charset="UTF-8">
-    {% assign title = page.title %}
+  <!-- 百度统计 -->
+  <script>
+      var _hmt = _hmt || [];
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?2495c4195e9fdd4493ec43b8b1d44cf9";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
+
+  {% assign title = page.title %}
     {% if page.layout == 'archives' %}
     {% assign title = lang.archive_a %}
     {% endif %}
